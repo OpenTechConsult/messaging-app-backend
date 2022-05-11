@@ -1,0 +1,19 @@
+{
+  "name": "messaging-app-backend",
+  "version": "1.0.0",
+  "description": "Node.js Backend API for the messaging app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/OpenTechConsult/messaging-app-backend.git",
+  "author": "OpenTech-Consult <opentech.consult@gmail.com>",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}
